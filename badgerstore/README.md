@@ -1,6 +1,6 @@
 # badgerstore
 
-A [Badger](https://github.com/dgraph-io/badger) based session store for [SCS](https://github.com/alexedwards/scs).
+A [Badger](https://github.com/dgraph-io/badger) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -15,8 +15,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/badgerstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/badgerstore"
 	"github.com/dgraph-io/badger"
 )
 

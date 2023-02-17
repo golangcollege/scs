@@ -1,6 +1,6 @@
 # mssqlstore
 
-A [MSSQL](https://github.com/denisenkom/go-mssqldb) based session store for [SCS](https://github.com/alexedwards/scs).
+A [MSSQL](https://github.com/denisenkom/go-mssqldb) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -29,8 +29,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/mssqlstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/mssqlstore"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )

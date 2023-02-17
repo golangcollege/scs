@@ -1,6 +1,6 @@
 # etcdstore
 
-A [etcd](https://github.com/etcd-io/etcd) based session store for [SCS](https://github.com/alexedwards/scs).
+A [etcd](https://github.com/etcd-io/etcd) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -15,8 +15,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/etcdstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/etcdstore"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

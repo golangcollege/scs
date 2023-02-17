@@ -1,6 +1,6 @@
 # consulstore
 
-A [Consul](https://github.com/hashicorp/consul) based session store for [SCS](https://github.com/alexedwards/scs).
+A [Consul](https://github.com/hashicorp/consul) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -15,8 +15,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/consulstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/consulstore"
 	"github.com/hashicorp/consul/api"
 )
 

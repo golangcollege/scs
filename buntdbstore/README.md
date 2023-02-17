@@ -1,6 +1,6 @@
 # buntdbstore
 
-A [BuntDB](https://github.com/tidwall/buntdb) based session store for [SCS](https://github.com/alexedwards/scs).
+A [BuntDB](https://github.com/tidwall/buntdb) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -15,8 +15,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/buntdbstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/buntdbstore"
 	"github.com/tidwall/buntdb"
 )
 

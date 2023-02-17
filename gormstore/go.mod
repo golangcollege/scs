@@ -1,4 +1,4 @@
-module github.com/alexedwards/scs/gormstore
+module github.com/golangcollege/scs/gormstore
 
 go 1.12
 

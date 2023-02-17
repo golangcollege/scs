@@ -1,4 +1,4 @@
-module github.com/alexedwards/scs/leveldbstore
+module github.com/golangcollege/scs/v2/leveldbstore
 
 go 1.16
 

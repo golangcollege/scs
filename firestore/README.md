@@ -1,6 +1,6 @@
 # firestore
 
-A [Google Cloud Firestore](https://pkg.go.dev/cloud.google.com/go/firestore) based session store for [SCS](https://github.com/alexedwards/scs).
+A [Google Cloud Firestore](https://pkg.go.dev/cloud.google.com/go/firestore) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -21,8 +21,8 @@ import (
 	"os"
 
 	"cloud.google.com/go/firestore"
-	scsfs "github.com/alexedwards/scs/firestore"
-	"github.com/alexedwards/scs/v2"
+	scsfs "github.com/golangcollege/scs/firestore"
+	"github.com/golangcollege/scs/v2"
 )
 
 var sessionManager *scs.SessionManager

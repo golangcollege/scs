@@ -1,6 +1,6 @@
 # gormstore
 
-A [GORM](https://github.com/go-gorm/gorm) based session store for [SCS](https://github.com/alexedwards/scs).
+A [GORM](https://github.com/go-gorm/gorm) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -15,7 +15,7 @@ CREATE TABLE sessions (
 
 CREATE INDEX sessions_expiry_idx ON sessions (expiry);
 ```
-For other stores you can find the setup here: [MSSQL](https://github.com/alexedwards/scs/tree/master/mssqlstore), [MySQL](https://github.com/alexedwards/scs/tree/master/mysqlstore), [SQLite3](https://github.com/alexedwards/scs/tree/master/sqlite3store).
+For other stores you can find the setup here: [MSSQL](https://github.com/golangcollege/scs/tree/master/mssqlstore), [MySQL](https://github.com/golangcollege/scs/tree/master/mysqlstore), [SQLite3](https://github.com/golangcollege/scs/tree/master/sqlite3store).
 
 If no table is present, a new one will be automatically created.
 
@@ -32,8 +32,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/gormstore"
-	"github.com/alexedwards/scs/v2"
+	"github.com/golangcollege/scs/gormstore"
+	"github.com/golangcollege/scs/v2"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

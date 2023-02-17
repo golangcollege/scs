@@ -1,4 +1,4 @@
-module github.com/alexedwards/scs/etcdstore
+module github.com/golangcollege/scs/etcdstore
 
 go 1.16
 

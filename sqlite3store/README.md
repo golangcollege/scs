@@ -1,6 +1,6 @@
 # sqlite3store
 
-A [SQLite3](https://github.com/mattn/go-sqlite3) based session store for [SCS](https://github.com/alexedwards/scs).
+A [SQLite3](https://github.com/mattn/go-sqlite3) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -27,8 +27,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/sqlite3store"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/sqlite3store"
 
 	_ "github.com/mattn/go-sqlite3"
 )

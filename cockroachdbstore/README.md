@@ -1,6 +1,6 @@
 # cockroachdbstore
 
-A CockroachDB based session store for [SCS](https://github.com/alexedwards/scs) using the [pq](https://github.com/lib/pq) driver.
+A CockroachDB based session store for [SCS](https://github.com/golangcollege/scs) using the [pq](https://github.com/lib/pq) driver.
 
 ## Setup
 
@@ -29,8 +29,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/cockroachdbstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/cockroachdbstore"
 
 	_ "github.com/lib/pq"
 )

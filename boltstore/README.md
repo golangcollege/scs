@@ -1,6 +1,6 @@
 # boltstore
 
-A [Bolt](https://github.com/etcd-io/bbolt) based session store for [SCS](https://github.com/alexedwards/scs).
+A [Bolt](https://github.com/etcd-io/bbolt) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -17,8 +17,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/boltstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/boltstore"
 	"go.etcd.io/bbolt"
 )
 

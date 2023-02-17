@@ -1,6 +1,6 @@
 # mysqlstore
 
-A [MySQL](https://github.com/go-sql-driver/mysql) based session store for [SCS](https://github.com/alexedwards/scs).
+A [MySQL](https://github.com/go-sql-driver/mysql) based session store for [SCS](https://github.com/golangcollege/scs).
 
 ## Setup
 
@@ -29,8 +29,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/mysqlstore"
+	"github.com/golangcollege/scs/v2"
+	"github.com/golangcollege/scs/mysqlstore"
 
 	_ "github.com/go-sql-driver/mysql"
 )
